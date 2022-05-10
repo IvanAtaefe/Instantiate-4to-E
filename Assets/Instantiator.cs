@@ -15,7 +15,6 @@ public class Instantiator : MonoBehaviour
             for (int i = 0; i < int.Parse(txtCloneAmount.text); i++)
             {
             Instantiate(objectToClone);
-                counter++;
             }
         }
         else
